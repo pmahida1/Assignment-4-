@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Car details</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content  class="ion-padding">
+  <h3>Make: {{car.Make}}</h3><br>
+  <h3>Model: {{car.Model}}</h3><br>
+  <h3>Year: {{car.Year}}</h3><br>
+  <h3>Category: {{car.Category}}</h3><br>
+  <br>
+  <ion-button color="danger" (click)="AddFavorite()">
+    <ion-icon slot="icon-only" name="heart"></ion-icon>
+    Add to Favorite
+  </ion-button>
+
+
+</ion-content>

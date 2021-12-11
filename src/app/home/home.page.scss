@@ -25,3 +25,7 @@
 #container a {
   text-decoration: none;
 }
+
+ion-content.background {
+  --background: url(../../assets/car_front.jpeg) 0 0/100% 100% no-repeat;
+}
